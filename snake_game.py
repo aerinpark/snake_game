@@ -44,10 +44,8 @@ class SnakeGame():
                 self.game_on = False
                 self.scoreboard.game_over()
             
-            for body in self.snake.body_parts:
-                if body == self.snake.head:
-                    pass
-                elif self.snake.head.distance(body) < 10:
+            for body in self.snake.body_parts[1:]:
+                if self.snake.head.distance(body) < 10:
                     self.game_on = False
                     self.scoreboard.game_over()
             
