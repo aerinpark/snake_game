@@ -6,10 +6,10 @@ LEFT = 180
 UP = 90
 
 # left, right, down, up
-LEFT_WALL = -281
-RIGHT_WALL = 281
-TOP_WALL = 281
-BOTTOM_WALL = -281
+LEFT_WALL = -285
+RIGHT_WALL = 285
+TOP_WALL = 285
+BOTTOM_WALL = -285
 
 class Snake:
     def __init__(self):
